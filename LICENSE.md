@@ -1,3 +1,12 @@
+---
+title: 'MIT License'
+date: Thu, 01 Jan 2009 12:00:00 +1000
+draft: false
+categories: ["legal"]
+page:
+    theme: "classic"
+---
+
 MIT License
 
 Copyright (c) 2009 CHERET Communications
