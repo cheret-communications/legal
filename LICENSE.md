@@ -1,10 +1,9 @@
 ---
-title: 'MIT License'
+title: 'MIT license'
 date: Thu, 01 Jan 2009 12:00:00 +1000
 draft: false
 categories: ["legal"]
-page:
-    theme: "classic"
+hiddenFromHomePage: true
 ---
 
 MIT License

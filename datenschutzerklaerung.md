@@ -1,8 +1,9 @@
 ---
-title: 'Datenschutzerklärung'
+title: 'datenschutzerklärung'
 date: Wed, 12 Feb 2014 21:50:04 +0000
 draft: false
 categories: ["legal"]
+hiddenFromHomePage: true
 ---
 
 ## Datenschutz

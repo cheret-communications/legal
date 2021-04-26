@@ -4,6 +4,7 @@ date: Sun, 01 Jan 2012 21:57:03 +0000
 draft: false
 categories: ["legal"]
 url: "/agb"
+hiddenFromHomePage: true
 ---
 
 Allgemeine Geschäftsbedingungen von CHERET Communications Inhaber: Mark Cheret im Folgenden kurz CHERET genannt.

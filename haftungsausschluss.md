@@ -1,8 +1,9 @@
 ---
-title: 'Haftungsausschluss'
+title: 'haftungsausschluss'
 date: Wed, 12 Feb 2014 22:54:32 +0000
 draft: false
 categories: ["legal"]
+hiddenFromHomePage: true
 ---
 
 ## Haftung für Inhalte
