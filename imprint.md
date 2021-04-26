@@ -1,10 +1,9 @@
 ---
-title: 'Imprint'
+title: 'imprint'
 date: Thu, 13 Aug 2009 12:32:36 +0000
 draft: false
 categories: ["legal"]
-page:
-    theme: "classic"
+hiddenFromHomePage: true
 ---
 
 ## Angaben gemäß § 5 TMG:
