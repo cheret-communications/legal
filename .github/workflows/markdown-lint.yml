@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Check out code
+    - name: Checkout repository
       uses: actions/checkout@main
-    - name: Run mdl
+    - name: Lint Markdown
       uses: actionshub/markdownlint@main
+      with:
+        filesToIgnoreRegex: '((test|example|bin)\/.*|docs\/RULES.md)'
