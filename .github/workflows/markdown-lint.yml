@@ -8,9 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@main
-    - name: Lint Markdown
-      uses: actionshub/markdownlint@main
-      with:
-        filesToIgnoreRegex: '((test|example|bin)\/.*|docs\/RULES.md)'
+      - uses: actions/checkout@v2
+        name: Check out the code
+      - name: Lint Code Base
+        uses: docker://avtodev/markdown-lint:v1
+        with:
+          args: "**/*.md"
