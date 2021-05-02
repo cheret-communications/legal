@@ -12,7 +12,7 @@ jobs:
         dst_path: "/content/legal/"
         dst_owner: markcheret
         dst_repo_name: cheret-de
-        dst_branch: markcheret/issue49
+        dst_branch: main
         src_branch: main
         file_filter: "*.md"
   copy-cheret-org:
@@ -26,7 +26,7 @@ jobs:
         dst_path: "/content/legal/"
         dst_owner: markcheret
         dst_repo_name: cheret-org
-        dst_branch: markcheret/issue62
+        dst_branch: main
         src_branch: main
         file_filter: "*.md"
   copy-cheret-tech:
@@ -40,6 +40,6 @@ jobs:
         dst_path: "/content/legal/"
         dst_owner: markcheret
         dst_repo_name: cheret-tech
-        dst_branch: markcheret/issue61
+        dst_branch: main
         src_branch: main
         file_filter: "*.md"
