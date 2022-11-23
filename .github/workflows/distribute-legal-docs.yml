@@ -1,6 +1,23 @@
 name: distribute legal
 on: push
 jobs:
+  copy-cheret-de-new:
+    runs-on: ubuntu-latest
+    container: pandoc/latex
+    steps:
+      - name: Filter on md using rsync
+      - uses: actions/checkout@v2
+        run:  mv *.md legal/
+      - name: copy legal to cheret-de
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: '.'
+          target-directory: "/content/legal/"
+          destination-github-username: 'markcheret'
+          destination-repository-name: 'cheret-de'
+          target-branch: main
   copy-cheret-de:
     runs-on: ubuntu-latest
     steps:
