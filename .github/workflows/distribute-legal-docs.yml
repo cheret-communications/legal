@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Filter on md using rsync
-        run:  mv *.md legal/
+        run:  mkdir -p legal && mv *.md legal/
       - name: copy legal to cheret-de
         uses: cpina/github-action-push-to-another-repository@main
         env:
