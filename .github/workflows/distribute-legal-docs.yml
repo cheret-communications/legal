@@ -5,8 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     container: pandoc/latex
     steps:
+      - uses: actions/checkout@v2
       - name: Filter on md using rsync
-        uses: actions/checkout@v2
         run:  mv *.md legal/
       - name: copy legal to cheret-de
         uses: cpina/github-action-push-to-another-repository@main
