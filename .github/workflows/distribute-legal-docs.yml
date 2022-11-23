@@ -11,7 +11,7 @@ jobs:
       - name: copy legal to cheret-de
         uses: cpina/github-action-push-to-another-repository@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          API_TOKEN_GITHUB: ${{ secrets.PERSONAL_TOKEN }}
         with:
           source-directory: '.'
           target-directory: "/content/legal/"
